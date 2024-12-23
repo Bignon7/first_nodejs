@@ -1,0 +1,6 @@
+1°)  npm init -y  //pour générer package.lock
+2°)  npm install express   //we need express to create API
+3°)  touch app.js  /// pour créer app.js
+4°)  npm install --save-dev nodemon  // nodemon permet 
+5°)  npm install sequelize mysql2  //pour gestion de BD
+6°)
