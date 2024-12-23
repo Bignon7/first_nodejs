@@ -2,16 +2,23 @@
   "name": "online-voting-app",
   "version": "1.0.0",
   "description": "A secure and efficient online voting application built with Node.js and Express.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["voting", "elections", "online", "nodejs", "express"],
+  "keywords": [
+    "voting",
+    "elections",
+    "online",
+    "nodejs",
+    "express"
+  ],
   "author": "Votre Nom ou Équipe",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
     "mysql2": "^3.12.0",
     "sequelize": "^6.37.5"
